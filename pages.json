@@ -1,0 +1,108 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Chats/index",
+			"style": {
+				"navigationBarTitleText": "Weixin"
+			}
+		},
+		{
+			"path": "pages/Contacts/index",
+			"style": {
+				"navigationBarTitleText": "Contacts"
+			}
+		},
+		{
+			"path": "pages/Discover/index",
+			"style": {
+				"navigationBarTitleText": "Discover"
+			}
+		},
+		{
+			"path": "pages/Me/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path" : "pages/Chat/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/moments/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "Moments",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/myProfile/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "My Profile",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"tabBar": {
+		"backgroundColor": "#F1F1F1",
+		"color": "#000000",
+		"selectedColor": "#1AAD19",
+		"iconfontSrc": "static/iconfont/iconfont.ttf",
+		"list": [
+			{
+				"pagePath": "pages/Chats/index",
+				"text": "Chats",
+				"iconfont": {
+					"text": "\ue6bc",
+					"selectedText": "\ue779",
+					"color": "#000000",
+					"selectedColor": "#1AAD19"
+				}
+			},
+			{
+				"pagePath": "pages/Contacts/index",
+				"text": "Contacts",
+				"iconfont": {
+					"text": "\ue7be",
+					"selectedText": "\ue7be",
+					"color": "#000000",
+					"selectedColor": "#1AAD19"
+				}
+			},
+			{
+				"pagePath": "pages/Discover/index",
+				"text": "Discover",
+				"iconfont": {
+					"text": "\ue67e",
+					"selectedText": "\ue6ba",
+					"color": "#000000",
+					"selectedColor": "#1AAD19"
+				}
+			},
+			{
+				"pagePath": "pages/Me/index",
+				"text": "Me",
+				"iconfont": {
+					"text": "\ue736",
+					"selectedText": "\ue735",
+					"color": "#000000",
+					"selectedColor": "#1AAD19"
+				}
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Weixin",
+		"navigationBarBackgroundColor": "#f0f0f0",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
