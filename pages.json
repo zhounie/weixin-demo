@@ -48,6 +48,14 @@
 				"navigationBarTitleText" : "My Profile",
 				"enablePullDownRefresh" : false
 			}
+		},
+		{
+			"path" : "pages/friendProfile/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
 		}
 	],
 	"tabBar": {

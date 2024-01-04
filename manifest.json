@@ -106,5 +106,10 @@
     },
     "vueVersion" : "3",
     "fallbackLocale" : "zh-Hans",
-    "locale" : "zh-Hans"
+    "locale" : "zh-Hans",
+    "h5" : {
+        "router" : {
+            "mode" : "history"
+        }
+    }
 }

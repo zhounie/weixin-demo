@@ -6,6 +6,27 @@
   "description": "微信",
   "glyphs": [
     {
+      "icon_id": "109800",
+      "name": "video",
+      "font_class": "video",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "880406",
+      "name": "video",
+      "font_class": "video1",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "1493700",
+      "name": "message_light",
+      "font_class": "message_light",
+      "unicode": "e7db",
+      "unicode_decimal": 59355
+    },
+    {
       "icon_id": "29929",
       "name": "emoji",
       "font_class": "emoji",

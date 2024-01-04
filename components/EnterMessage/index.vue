@@ -1,16 +1,23 @@
 <template>
 	<div class="enter-message">
-		<input :value="value" @input="onInput" />
+		<input :value="value" @input="onInput" @keydown.enter="onEnter" />
 	</div>
 </template>
 
 <script setup>
-	import { ref } from 'vue'
+	import { ref, defineEmits } from 'vue'
+	
+	const emit = defineEmits(['send'])
 	
 	const value = ref('')
 	
 	const onInput = (e) => {
 		value.value = e.detail.value
+	}
+	
+	const onEnter = () => {
+		emit('send', value.value)
+		value.value = ''
 	}
 </script>
 
